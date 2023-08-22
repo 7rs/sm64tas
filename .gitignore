@@ -5,7 +5,7 @@
 *.m64
 
 # Read-only save files (using .savestate)
-!/save/savestate/*.savestate
+!/save/savestate/iof/*.savestate
 
 # Super Mario Integration of Fragments
 !/iof/wc/*/*.m64
@@ -19,3 +19,4 @@
 
 #
 *.git
+*.obsidian
