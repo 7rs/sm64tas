@@ -1,0 +1,21 @@
+# Excludes WIP TAS files
+*.eep
+*.st*
+*.savestate
+*.m64
+
+# Read-only save files (using .savestate)
+!/save/savestate/*.savestate
+
+# Super Mario Integration of Fragments
+!/iof/wc/*/*.m64
+!/iof/c1/*/*.m64
+
+
+## FFmpeg
+*paths.txt
+*.avi
+
+
+#
+*.git
