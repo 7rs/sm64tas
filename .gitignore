@@ -8,9 +8,8 @@
 !/save/savestate/iof/*.savestate
 
 # Super Mario Integration of Fragments
-!/iof/wc/*/*.m64
-!/iof/c1/*/*.m64
-
+!/iof/*/*/*.m64
+!/iof/unoptimized/*.m64
 
 ## FFmpeg
 *paths.txt

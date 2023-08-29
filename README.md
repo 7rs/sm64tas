@@ -3,9 +3,10 @@
 
 ## Romhacks list  
 [smiof]: https://youtube.com/playlist?list=PLsprkNPmlpByj9nrsupld-aBIvvdo1wqQ  
+
 | Name                   | Works | Videos                    |
 | ---------------------- | -----:| ------------------------- |
-| [SMIoF](iof/README.md) | 8/182 | [YouTube Playlist][smiof] |
+| [SMIoF](iof/README.md) | 9/182 | [YouTube Playlist][smiof] |
 |                        |       |                           |
 
 
@@ -28,11 +29,17 @@
 | Stereo | 384 kbps      |
 | 5.1    | 512 kbps      |
 
-
+### Merge  
 ```bash
 ffmpeg -safe 0 -f concat -i paths.txt -b "8M" -r "30" -s "1440x1080" -ab "384k" -sn -map 0:v -map 0:a output.avi
 ```
 
 ```bash paths.txt
-file './yourrecords.avi'
+file './yourrecords1.avi'
+file './yourrecords2.avi'
+```
+
+### Encode
+```bash
+ffmpeg -safe 0 -b "8M" -r "30" -s "1440x1080" -ab "384k" -sn -map 0:v -map 0:a output.avi
 ```
