@@ -9,13 +9,13 @@
 
 # Super Mario Integration of Fragments
 !/iof/*/*/*.m64
-!/iof/unoptimized/*.m64
+!/iof/*/*/*.st
 
 ## FFmpeg
 *paths.txt
 *.avi
 
-
-#
+# Other
 *.git
 *.obsidian
+libsm64
