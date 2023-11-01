@@ -4,16 +4,26 @@
 *.savestate
 *.m64
 
-# Read-only save files (using .savestate)
-!/save/savestate/iof/*.savestate
+!/save/*.eep
 
 # Super Mario Integration of Fragments
-!/iof/*/*/*.m64
-!/iof/*/*/*.st
+!/iof/*.m64
+!/iof/*.st
+!/iof/save/*.savestate
+# Super Mario Endless Journey
+!/ej/*.m64
+!/ej/*.st
+# Super Mario SezNative Reminisence
+!/snr/*.m64
+!/snr/*.st
+# Star Revenge 4.9: Adulterated Reality
+!/sr4.9/*.m64
+!/sr4.9/*.st
 
-## FFmpeg
+## FFmpeg / AviUtl
 *paths.txt
 *.avi
+*.aup
 
 # Other
 *.git

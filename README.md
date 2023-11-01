@@ -1,21 +1,25 @@
-# SM64 TAS Archives  
+<h1 align="center">SM64 TAS Archives</h1>
+<p align="center">
+    This is Archives for publication and storage TASing files by Cbrnex.
+</p>
 
+---
 
-##   
-[smiof]: https://youtube.com/playlist?list=PLsprkNPmlpByj9nrsupld-aBIvvdo1wqQ  
+## Resources  
 
-| Name                   | Works | Videos                    |
-| ---------------------- | -----:| ------------------------- |
-| [SMIoF](iof/README.md) | 9/182 | [YouTube Playlist][smiof] |
+- SMIoF (Integration of Fragments (v1.3.5))
+- SMEJ (Endress Journey)
+- SMCC (Cursed Castles)
+- SR4.9 (Star Revenge 4.9 - Adulterated Realty)
+
+[Records](https://docs.google.com/spreadsheets/d/1T3Jvo-Eos7cOatJ-g1GnOt9uuALvwnHk0hUVMKZKOMI/edit?usp=sharing)
 
 
 ## Encoding  
 
-### Merges the videos  
 
-Required [FFmpeg](https://ffmpeg.org/)  
+- ### Merges the videos  
 
-#### merging  
 ```bash
 ffmpeg -safe 0 -f concat -i paths.txt -b "8M" -r "30" -s "1440x1080" -ab "384k" -sn -map 0:v -map 0:a output.avi
 ```
@@ -25,10 +29,17 @@ file './yourrecords1.avi'
 file './yourrecords2.avi'
 ```
 
-### Just encodes the videos  
+Required [FFmpeg](https://ffmpeg.org/)  
+
+
+- ### Just encodes the videos  
+
 ```bash
 ffmpeg -safe 0 -b "8M" -r "30" -s "1440x1080" -ab "384k" -sn -map 0:v -map 0:a output.avi
 ```  
+
+
+- ### Video Reference  
 
 | Resolution | Bitrate Bitlate (30fps) |
 | ---------- | ----------------------- |
