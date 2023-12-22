@@ -3,22 +3,11 @@
 *.st*
 *.savestate
 *.m64
+*.md
 
-!/save/*.eep
-
-# Super Mario Integration of Fragments
-!/iof/*.m64
-!/iof/*.st
-!/iof/save/*.savestate
-# Super Mario Endless Journey
-!/ej/*.m64
-!/ej/*.st
-# Super Mario SezNative Reminisence
-!/snr/*.m64
-!/snr/*.st
-# Star Revenge 4.9: Adulterated Reality
-!/sr4.9/*.m64
-!/sr4.9/*.st
+# README
+!/README.md
+!/README_jp.md
 
 ## FFmpeg / AviUtl
 *paths.txt
@@ -29,3 +18,40 @@
 *.git
 *.obsidian
 libsm64
+
+##### TAS files
+
+# Super Mario Integration of Fragments
+!/iof/*.m64
+!/iof/*.st
+!/iof/*.savestate
+
+# Super Mario Endless Journey
+!/ej/*.m64
+!/ej/*.st
+!/ej/*savestate
+
+# Super Mario SezNative Reminisence
+!/snr/*.m64
+!/snr/*.st
+!/snr/*.savestate
+
+# Star Revenge 4.9: Adulterated Reality
+!/sr4.9/*.m64
+!/sr4.9/*.st
+!/sr4.9/*.savestate
+
+# Super Mario 4
+!/sm4/*.m64
+!/sm4/*.st
+!/sm4/*.savestate
+
+# Super Mario and the Cursed Castles
+!/cc/*.m64
+!/cc/*.st
+!/cc/*.savestate
+
+# Phenomena
+!/phenomena/*.m64
+!/phenomena/*.st
+!/phenomena/*.savestate
