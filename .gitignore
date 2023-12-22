@@ -4,6 +4,7 @@
 *.savestate
 *.m64
 *.md
+/save/*
 
 # README
 !/README.md
