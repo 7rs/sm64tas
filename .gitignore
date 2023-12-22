@@ -37,21 +37,21 @@ libsm64
 !/snr/*.savestate
 
 # Star Revenge 4.9: Adulterated Reality
-!/sr4.9/*.m64
-!/sr4.9/*.st
-!/sr4.9/*.savestate
+!/sr4.9/*/*.m64
+!/sr4.9/*/*.st
+!/sr4.9/*/*.savestate
 
 # Super Mario 4
-!/sm4/*.m64
-!/sm4/*.st
-!/sm4/*.savestate
+!/sm4/*/*.m64
+!/sm4/*/*.st
+!/sm4/*/*.savestate
 
 # Super Mario and the Cursed Castles
-!/cc/*.m64
-!/cc/*.st
-!/cc/*.savestate
+!/smcc/*/*.m64
+!/smcc/*/*.st
+!/smcc/*/*.savestate
 
 # Phenomena
-!/phenomena/*.m64
-!/phenomena/*.st
-!/phenomena/*.savestate
+!/phenomena/*/*.m64
+!/phenomena/*/*.st
+!/phenomena/*/*.savestate
