@@ -23,14 +23,15 @@ libsm64
 ##### TAS files
 
 # Super Mario Integration of Fragments
-!/iof/*.m64
-!/iof/*.st
-!/iof/*.savestate
+!/smiof/*/*.m64
+!/smiof/*/*.st
+!/smiof/*/*/*.m64
+!/smiof/*/*/*.st
 
 # Super Mario Endless Journey
-!/ej/*.m64
-!/ej/*.st
-!/ej/*savestate
+!/smej/*/*.m64
+!/smej/*/*.st
+!/smej/*/*savestate
 
 # Super Mario SezNative Reminisence
 !/snr/*.m64
@@ -56,3 +57,9 @@ libsm64
 !/phenomena/*/*.m64
 !/phenomena/*/*.st
 !/phenomena/*/*.savestate
+
+!/comp/done/*.m64
+!/comp/done/*.st
+
+!/er/*.m64
+!/er/*.st
